@@ -1,0 +1,6 @@
+framework module Pods_HuiyuGuan_Assignment_1_HuiyuGuan_Assignment_1UITests {
+  umbrella header "Pods-HuiyuGuan Assignment 1-HuiyuGuan Assignment 1UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

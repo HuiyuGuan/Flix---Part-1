@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09C22EA2B4443AFC8E9974B1 /* Pods_HuiyuGuan_Assignment_1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5F2050CA84C5E8466A1F15 /* Pods_HuiyuGuan_Assignment_1Tests.framework */; };
+		0A62D1F88045E6B8BFE54E20 /* Pods_HuiyuGuan_Assignment_1_HuiyuGuan_Assignment_1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F88F6F9F2F433F91C40B55 /* Pods_HuiyuGuan_Assignment_1_HuiyuGuan_Assignment_1UITests.framework */; };
 		65AB0DD327C94CB3002957EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AB0DD227C94CB3002957EA /* AppDelegate.swift */; };
 		65AB0DD527C94CB3002957EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AB0DD427C94CB3002957EA /* SceneDelegate.swift */; };
 		65AB0DD727C94CB3002957EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AB0DD627C94CB3002957EA /* ViewController.swift */; };
@@ -16,6 +18,10 @@
 		65AB0DEA27C94CB5002957EA /* HuiyuGuan_Assignment_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AB0DE927C94CB5002957EA /* HuiyuGuan_Assignment_1Tests.swift */; };
 		65AB0DF427C94CB5002957EA /* HuiyuGuan_Assignment_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AB0DF327C94CB5002957EA /* HuiyuGuan_Assignment_1UITests.swift */; };
 		65AB0DF627C94CB5002957EA /* HuiyuGuan_Assignment_1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AB0DF527C94CB5002957EA /* HuiyuGuan_Assignment_1UITestsLaunchTests.swift */; };
+		65AB0E0527C95EBE002957EA /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AB0E0427C95EBE002957EA /* MoviesViewController.swift */; };
+		65AB0E0727C96B79002957EA /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AB0E0627C96B79002957EA /* MovieCell.swift */; };
+		65AB0E0A27C973C9002957EA /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 65AB0E0927C973C9002957EA /* AlamofireImage */; };
+		DAB90C27536399EEE18D0FF8 /* Pods_HuiyuGuan_Assignment_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D21A00C58DD6FA9F1422DE4 /* Pods_HuiyuGuan_Assignment_1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0547FCA2F099B875FD92B831 /* Pods-HuiyuGuan Assignment 1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuiyuGuan Assignment 1Tests.debug.xcconfig"; path = "Target Support Files/Pods-HuiyuGuan Assignment 1Tests/Pods-HuiyuGuan Assignment 1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		45971FDD4168F34E866BA1AA /* Pods-HuiyuGuan Assignment 1-HuiyuGuan Assignment 1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuiyuGuan Assignment 1-HuiyuGuan Assignment 1UITests.debug.xcconfig"; path = "Target Support Files/Pods-HuiyuGuan Assignment 1-HuiyuGuan Assignment 1UITests/Pods-HuiyuGuan Assignment 1-HuiyuGuan Assignment 1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C5F2050CA84C5E8466A1F15 /* Pods_HuiyuGuan_Assignment_1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuiyuGuan_Assignment_1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D21A00C58DD6FA9F1422DE4 /* Pods_HuiyuGuan_Assignment_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuiyuGuan_Assignment_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DDA93BC65D034CD21A77A85 /* Pods-HuiyuGuan Assignment 1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuiyuGuan Assignment 1.release.xcconfig"; path = "Target Support Files/Pods-HuiyuGuan Assignment 1/Pods-HuiyuGuan Assignment 1.release.xcconfig"; sourceTree = "<group>"; };
 		65AB0DCF27C94CB3002957EA /* HuiyuGuan Assignment 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HuiyuGuan Assignment 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65AB0DD227C94CB3002957EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65AB0DD427C94CB3002957EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,12 @@
 		65AB0DEF27C94CB5002957EA /* HuiyuGuan Assignment 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HuiyuGuan Assignment 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65AB0DF327C94CB5002957EA /* HuiyuGuan_Assignment_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuiyuGuan_Assignment_1UITests.swift; sourceTree = "<group>"; };
 		65AB0DF527C94CB5002957EA /* HuiyuGuan_Assignment_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuiyuGuan_Assignment_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65AB0E0427C95EBE002957EA /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		65AB0E0627C96B79002957EA /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		7204F1ED85A6DB8B3E89EF16 /* Pods-HuiyuGuan Assignment 1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuiyuGuan Assignment 1Tests.release.xcconfig"; path = "Target Support Files/Pods-HuiyuGuan Assignment 1Tests/Pods-HuiyuGuan Assignment 1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9336D1BD9F7CBE0CA4382120 /* Pods-HuiyuGuan Assignment 1-HuiyuGuan Assignment 1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuiyuGuan Assignment 1-HuiyuGuan Assignment 1UITests.release.xcconfig"; path = "Target Support Files/Pods-HuiyuGuan Assignment 1-HuiyuGuan Assignment 1UITests/Pods-HuiyuGuan Assignment 1-HuiyuGuan Assignment 1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		C7F88F6F9F2F433F91C40B55 /* Pods_HuiyuGuan_Assignment_1_HuiyuGuan_Assignment_1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuiyuGuan_Assignment_1_HuiyuGuan_Assignment_1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFC1016304FB0D32AEF33C2 /* Pods-HuiyuGuan Assignment 1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuiyuGuan Assignment 1.debug.xcconfig"; path = "Target Support Files/Pods-HuiyuGuan Assignment 1/Pods-HuiyuGuan Assignment 1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65AB0E0A27C973C9002957EA /* AlamofireImage in Frameworks */,
+				DAB90C27536399EEE18D0FF8 /* Pods_HuiyuGuan_Assignment_1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09C22EA2B4443AFC8E9974B1 /* Pods_HuiyuGuan_Assignment_1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A62D1F88045E6B8BFE54E20 /* Pods_HuiyuGuan_Assignment_1_HuiyuGuan_Assignment_1UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36FA150C9AF3479056EC80EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC1016304FB0D32AEF33C2 /* Pods-HuiyuGuan Assignment 1.debug.xcconfig */,
+				5DDA93BC65D034CD21A77A85 /* Pods-HuiyuGuan Assignment 1.release.xcconfig */,
+				45971FDD4168F34E866BA1AA /* Pods-HuiyuGuan Assignment 1-HuiyuGuan Assignment 1UITests.debug.xcconfig */,
+				9336D1BD9F7CBE0CA4382120 /* Pods-HuiyuGuan Assignment 1-HuiyuGuan Assignment 1UITests.release.xcconfig */,
+				0547FCA2F099B875FD92B831 /* Pods-HuiyuGuan Assignment 1Tests.debug.xcconfig */,
+				7204F1ED85A6DB8B3E89EF16 /* Pods-HuiyuGuan Assignment 1Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		65AB0DC627C94CB3002957EA = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +117,8 @@
 				65AB0DE827C94CB5002957EA /* HuiyuGuan Assignment 1Tests */,
 				65AB0DF227C94CB5002957EA /* HuiyuGuan Assignment 1UITests */,
 				65AB0DD027C94CB3002957EA /* Products */,
+				36FA150C9AF3479056EC80EE /* Pods */,
+				AB6529EFAFA5C44916E442C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +139,11 @@
 				65AB0DD427C94CB3002957EA /* SceneDelegate.swift */,
 				65AB0DD627C94CB3002957EA /* ViewController.swift */,
 				65AB0DD827C94CB3002957EA /* Main.storyboard */,
+				65AB0E0427C95EBE002957EA /* MoviesViewController.swift */,
 				65AB0DDB27C94CB5002957EA /* Assets.xcassets */,
 				65AB0DDD27C94CB5002957EA /* LaunchScreen.storyboard */,
 				65AB0DE027C94CB5002957EA /* Info.plist */,
+				65AB0E0627C96B79002957EA /* MovieCell.swift */,
 			);
 			path = "HuiyuGuan Assignment 1";
 			sourceTree = "<group>";
@@ -127,6 +165,16 @@
 			path = "HuiyuGuan Assignment 1UITests";
 			sourceTree = "<group>";
 		};
+		AB6529EFAFA5C44916E442C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D21A00C58DD6FA9F1422DE4 /* Pods_HuiyuGuan_Assignment_1.framework */,
+				C7F88F6F9F2F433F91C40B55 /* Pods_HuiyuGuan_Assignment_1_HuiyuGuan_Assignment_1UITests.framework */,
+				5C5F2050CA84C5E8466A1F15 /* Pods_HuiyuGuan_Assignment_1Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,15 +182,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65AB0DF927C94CB5002957EA /* Build configuration list for PBXNativeTarget "HuiyuGuan Assignment 1" */;
 			buildPhases = (
+				1FA96EBF91136E17B97E6388 /* [CP] Check Pods Manifest.lock */,
 				65AB0DCB27C94CB3002957EA /* Sources */,
 				65AB0DCC27C94CB3002957EA /* Frameworks */,
 				65AB0DCD27C94CB3002957EA /* Resources */,
+				0DD5DEA055A3474B9871BC92 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "HuiyuGuan Assignment 1";
+			packageProductDependencies = (
+				65AB0E0927C973C9002957EA /* AlamofireImage */,
+			);
 			productName = "HuiyuGuan Assignment 1";
 			productReference = 65AB0DCF27C94CB3002957EA /* HuiyuGuan Assignment 1.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65AB0DFC27C94CB5002957EA /* Build configuration list for PBXNativeTarget "HuiyuGuan Assignment 1Tests" */;
 			buildPhases = (
+				0A916EA96E59D54D62B2C95E /* [CP] Check Pods Manifest.lock */,
 				65AB0DE127C94CB5002957EA /* Sources */,
 				65AB0DE227C94CB5002957EA /* Frameworks */,
 				65AB0DE327C94CB5002957EA /* Resources */,
@@ -169,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65AB0DFF27C94CB5002957EA /* Build configuration list for PBXNativeTarget "HuiyuGuan Assignment 1UITests" */;
 			buildPhases = (
+				72F40B14B810C5980AE5306B /* [CP] Check Pods Manifest.lock */,
 				65AB0DEB27C94CB5002957EA /* Sources */,
 				65AB0DEC27C94CB5002957EA /* Frameworks */,
 				65AB0DED27C94CB5002957EA /* Resources */,
+				CA79EC2DE04EAF35F9C9AE83 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +271,9 @@
 				Base,
 			);
 			mainGroup = 65AB0DC627C94CB3002957EA;
+			packageReferences = (
+				65AB0E0827C973C9002957EA /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = 65AB0DD027C94CB3002957EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -253,6 +312,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A916EA96E59D54D62B2C95E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HuiyuGuan Assignment 1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DD5DEA055A3474B9871BC92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HuiyuGuan Assignment 1/Pods-HuiyuGuan Assignment 1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HuiyuGuan Assignment 1/Pods-HuiyuGuan Assignment 1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HuiyuGuan Assignment 1/Pods-HuiyuGuan Assignment 1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FA96EBF91136E17B97E6388 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HuiyuGuan Assignment 1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72F40B14B810C5980AE5306B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HuiyuGuan Assignment 1-HuiyuGuan Assignment 1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA79EC2DE04EAF35F9C9AE83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HuiyuGuan Assignment 1-HuiyuGuan Assignment 1UITests/Pods-HuiyuGuan Assignment 1-HuiyuGuan Assignment 1UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HuiyuGuan Assignment 1-HuiyuGuan Assignment 1UITests/Pods-HuiyuGuan Assignment 1-HuiyuGuan Assignment 1UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HuiyuGuan Assignment 1-HuiyuGuan Assignment 1UITests/Pods-HuiyuGuan Assignment 1-HuiyuGuan Assignment 1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		65AB0DCB27C94CB3002957EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +423,8 @@
 				65AB0DD727C94CB3002957EA /* ViewController.swift in Sources */,
 				65AB0DD327C94CB3002957EA /* AppDelegate.swift in Sources */,
 				65AB0DD527C94CB3002957EA /* SceneDelegate.swift in Sources */,
+				65AB0E0727C96B79002957EA /* MovieCell.swift in Sources */,
+				65AB0E0527C95EBE002957EA /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +598,7 @@
 		};
 		65AB0DFA27C94CB5002957EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC1016304FB0D32AEF33C2 /* Pods-HuiyuGuan Assignment 1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,7 +617,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.HuiyuGuan-Assignment-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.HuiyuGuan-Assignment1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -462,6 +627,7 @@
 		};
 		65AB0DFB27C94CB5002957EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DDA93BC65D034CD21A77A85 /* Pods-HuiyuGuan Assignment 1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -480,7 +646,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.HuiyuGuan-Assignment-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.HuiyuGuan-Assignment1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -490,6 +656,7 @@
 		};
 		65AB0DFD27C94CB5002957EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0547FCA2F099B875FD92B831 /* Pods-HuiyuGuan Assignment 1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +677,7 @@
 		};
 		65AB0DFE27C94CB5002957EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7204F1ED85A6DB8B3E89EF16 /* Pods-HuiyuGuan Assignment 1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +698,7 @@
 		};
 		65AB0E0027C94CB5002957EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45971FDD4168F34E866BA1AA /* Pods-HuiyuGuan Assignment 1-HuiyuGuan Assignment 1UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +717,7 @@
 		};
 		65AB0E0127C94CB5002957EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9336D1BD9F7CBE0CA4382120 /* Pods-HuiyuGuan Assignment 1-HuiyuGuan Assignment 1UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -604,6 +774,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		65AB0E0827C973C9002957EA /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		65AB0E0927C973C9002957EA /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65AB0E0827C973C9002957EA /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 65AB0DC727C94CB3002957EA /* Project object */;
 }
